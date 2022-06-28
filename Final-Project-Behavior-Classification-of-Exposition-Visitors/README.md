@@ -20,13 +20,13 @@ Dataset consists of `sniffer_loc`, `created_time`. We focus on using the informa
 ***Note: Under our attempts, we found that transformer-based models have better result and may have higher potential***
 
 ## Ablation Test & parameters setting
-<p align="center">
+<!-- <p align="center"> -->
   <img src="eval.png" />
-</p>
+<!-- </p> -->
 
-<p align="center">
+<!-- <p align="center"> -->
   <img src="hyper_parameter_set.png" />
-</p>
+<!-- </p> -->
 
 ## Final Rank 
 * **Our team reaches the top-3 on this leader board.**
