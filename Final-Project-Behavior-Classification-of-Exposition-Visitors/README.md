@@ -17,10 +17,6 @@ Dataset consists of `sniffer_loc`, `created_time`. We focus on using the informa
 5. Transformer-based (BERT & XLNet)
     * With the help of **Multi-head self attention** mechanism
 
-<img src="bert%20arch.png">
-<br></br>
-<img src="xlnet%20arch.png" />
-
 ***Note: Under our attempts, we found that transformer-based models have better result and may have higher potential***
 
 ## Ablation Test & parameters setting
