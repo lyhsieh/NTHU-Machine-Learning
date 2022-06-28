@@ -18,7 +18,6 @@ Dataset consists of `sniffer_loc`, `created_time`. We focus on using the informa
     * With the help of **Multi-head self attention** mechanism
 
 <img src="bert%20arch.png">
-
 <br></br>
 <img src="xlnet%20arch.png" />
 
