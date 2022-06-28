@@ -31,9 +31,8 @@ Dataset consists of `sniffer_loc`, `created_time`. We focus on using the informa
 ## Final Rank 
 * **Our team reaches the top-3 on this leader board.**
 * The statistics on Aidea platform by **2022.6.13**
-<p align="center">
-  <img src="final_rank.png" width=70%/>
-</p>
+<img src="final_rank.png"/>
+
 
 
 
