@@ -20,13 +20,32 @@ Dataset consists of `sniffer_loc`, `created_time`. We focus on using the informa
 ***Note: Under our attempts, we found that transformer-based models have better result and may have higher potential***
 
 ## Ablation Test & parameters setting
-<!-- <p align="center"> -->
-  <img src="eval.png" />
-<!-- </p> -->
+|           | Aidea score  | Validation acc.  |
+|:---------:|:------------:|:----------------:|
+|LSTM       |	0.1498253	   |0.9598            |
+|RNN	      |0.1368455	      |0.9411|
+|Random Forest|0.1781107	      |0.9534|
+|Catboost <br>(w/ grouping)|0.1276041	      |0.9611|
+|Catboost	      |0.1115650	      |0.9625|
+|BERT (w/ grouping)	      |0.0991397	      |0.9842|
+|BERT	      |0.0468931	      |0.9871|
+|BERT+XLNet *	      |0.0439630|	-|
 
-<!-- <p align="center"> -->
-  <img src="hyper_parameter_set.png" />
-<!-- </p> -->
+\* When the highest probability of the 5 classes is under a threshold, and the inference results are different then we will change the probabilities into ones predicted by XLNet.
+
+|       |	BERT	 |XLNet    |
+|:-----:|:------:|:------:|
+|vocab_size|15|15
+|hidden_size (d_model)|16|16|
+|num_hidden_layer<br>(n_layer)|8|8|
+|num_attention_heads<br>(n_head)|4|4|
+|intermediate_size (d_inner)|64|64|
+|max_position_embeddings|14|-|
+|optimizer|adam|adam|
+|learning rate|1e-3|1e-3|
+|learning rate decay|1e-5|1e-5|
+|loss|Categorical Crossentropy|Categorical Crossentropy|
+
 
 ## Final Rank 
 * **Our team reaches the top-3 on this leader board.**
