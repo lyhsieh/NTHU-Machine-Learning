@@ -57,6 +57,6 @@ Dataset consists of `sniffer_loc`, `created_time`. We focus on using the informa
 
 ## Others
 Other details and discussion are stored in the .pdf file. Please find reference there if you're interested.
-* Reference/note.md: the report.pdf and poster.pdf can help you understand more details.
+* [Reference/note.md](Reference/note.md): the report.pdf and poster.pdf can help you understand more details.
 * src/note.md: Summarize how our code works and the purposes of each files. 
 
